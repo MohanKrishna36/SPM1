@@ -1,0 +1,41 @@
+[
+  {
+    "company": "tata",
+    "role": "manager",
+    "package": "12",
+    "topics": "dsa",
+    "criteria": "cgpa",
+    "preparation": "dsa",
+    "interviewQuestions": "dsa"
+  },
+  {
+    "year": "2024",
+    "company": "TCS",
+    "package": "12",
+    "topics": "DSA",
+    "criteria": "DSA",
+    "preparation": "DSA",
+    "interview": "DSA",
+    "email": "M@gmail.com"
+  },
+  {
+    "year": "2025",
+    "company": "HP",
+    "package": "24",
+    "topics": "DSA",
+    "criteria": "JAVA",
+    "preparation": "LEET CODE",
+    "interview": "DP",
+    "email": "M@gmail.com"
+  },
+  {
+    "year": "2025",
+    "company": "HP",
+    "package": "24",
+    "topics": "lkjhgfds",
+    "criteria": "cvbn",
+    "preparation": ",nmbvbcbjmhvn",
+    "interview": "nbvcx",
+    "email": "M@gmail.com"
+  }
+]

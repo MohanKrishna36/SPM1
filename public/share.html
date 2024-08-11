@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Your Journey</title>
+    <link rel="stylesheet" href="share.css">
+</head>
+<body>
+    <header>
+        <h1 class="center-title">Share Your Placement Journey</h1>
+    </header>
+
+    <form id="shareForm">
+        <label for="year">Year of Placement</label>
+        <input type="text" id="year" name="year" required>
+
+        <label for="company">Company</label>
+        <input type="text" id="company" name="company" required>
+
+        <label for="package">Package (LPA)</label>
+        <input type="number" id="package" name="package" required>
+
+        <label for="topics">Topics Learned</label>
+        <textarea id="topics" name="topics" required></textarea>
+
+        <label for="criteria">Selection Criteria</label>
+        <textarea id="criteria" name="criteria" required></textarea>
+
+        <label for="preparation">Preparation Tips</label>
+        <textarea id="preparation" name="preparation" required></textarea>
+
+        <label for="interview">Interview Questions</label>
+        <textarea id="interview" name="interview" required></textarea>
+
+        <label for="email">Mail ID (Optional)</label>
+        <input type="email" id="email" name="email">
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <footer>
+        <button onclick="window.location.href='index.html'">Home</button>
+    </footer>
+
+    <script src="share.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Others' Journeys</title>
+    <link rel="stylesheet" href="view.css">
+</head>
+<body>
+    <header>
+        <h1>Others' Placement Journeys</h1>
+    </header>
+
+    <section>
+        <label for="filter">Filter by Year of Placement:</label>
+        <select id="filter" onchange="filterExperiences()">
+            <option value="all">All</option>
+           
+            <!-- Populate years dynamically or statically -->
+            <option value="2023">2028</option>
+            <option value="2022">2022</option>
+            <option value="2023">2027</option>
+            <option value="2022">2026</option>
+            <option value="2023">2025</option>
+            <option value="2022">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+        </select>
+
+        <table>
+            <caption>Placement Stories</caption>
+            <thead>
+                <tr>
+                    <th>Year of Placement</th>
+                    <th>Company</th>
+                    <th>Package</th>
+                    <th>Topics Learned</th>
+                    <th>Selection Criteria</th>
+                    <th>Preparation Tips</th>
+                    <th>Interview Questions</th>
+                    <th>Mail ID</th>
+                </tr>
+            </thead>
+            <tbody id="experiences">
+                <!-- Data will be inserted here dynamically -->
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <button onclick="window.location.href='index.html'">Home</button>
+    </footer>
+
+    <script src="view.js"></script>
+</body>
+</html>
